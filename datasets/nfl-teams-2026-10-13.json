@@ -1,0 +1,2215 @@
+{
+  "format": "pattern-atlas-data",
+  "version": 1,
+  "batch_id": "nfl-teams-2026-10-13-v1",
+  "dataset": {
+    "name": "NFL",
+    "context": "All 32 active NFL franchises as of 2026-10-13, grouped AFC/NFC and eight divisions. Full names are canonical; nickname/brand/abbreviation aliases are provided. Founding year, franchise grant date and first playing season are separate metadata. Historical dates do not imply modern stadium locations. Home coordinates are approximate city reference points from GeoNames/Open-Meteo, not exact stadium points. Sources and the Rams date disagreement are preserved per record. No roster, game schedule or current standings are asserted.",
+    "entities": [
+      {
+        "key": "arizona-cardinals",
+        "name": "Arizona Cardinals",
+        "kind": "team",
+        "aliases": [
+          "Cardinals",
+          "Arizona",
+          "ARI"
+        ],
+        "tags": [
+          "NFL",
+          "NFC",
+          "NFC West"
+        ],
+        "place_key": "glendale-arizona",
+        "context": "NFC, NFC West. Current home venue: State Farm Stadium, Glendale, Arizona. Morgan Athletic Club origins; only the year is established in the reviewed source. Original formation day/month not asserted; 1920 date is APFA/NFL admission. Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/arizona-cardinals/team-facts\nhttps://www.nfl.com/teams/arizona-cardinals/\nhttps://www.profootballhof.com/teams/arizona-cardinals/team-history\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "NFC",
+          "division": "NFC West",
+          "abbreviation": "ARI",
+          "brand_location": "Arizona",
+          "home_city": "Glendale",
+          "home_state": "Arizona",
+          "stadium": "State Farm Stadium",
+          "founding_year": 1898,
+          "founding_date": null,
+          "founding_basis": "Morgan Athletic Club origins; only the year is established in the reviewed source.",
+          "franchise_awarded_date": "1920-09-17",
+          "first_league_season": 1920,
+          "nfl_profile_established_year": 1920,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "atlanta-falcons",
+        "name": "Atlanta Falcons",
+        "kind": "team",
+        "aliases": [
+          "Falcons",
+          "Atlanta",
+          "ATL"
+        ],
+        "tags": [
+          "NFL",
+          "NFC",
+          "NFC South"
+        ],
+        "place_key": "atlanta-georgia",
+        "context": "NFC, NFC South. Current home venue: Mercedes-Benz Stadium, Atlanta, Georgia. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/atlanta-falcons/team-facts\nhttps://www.nfl.com/teams/atlanta-falcons/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "NFC",
+          "division": "NFC South",
+          "abbreviation": "ATL",
+          "brand_location": "Atlanta",
+          "home_city": "Atlanta",
+          "home_state": "Georgia",
+          "stadium": "Mercedes-Benz Stadium",
+          "founding_year": 1965,
+          "founding_date": "1965-06-30",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1965-06-30",
+          "first_league_season": 1966,
+          "nfl_profile_established_year": 1966,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "baltimore-ravens",
+        "name": "Baltimore Ravens",
+        "kind": "team",
+        "aliases": [
+          "Ravens",
+          "Baltimore",
+          "BAL"
+        ],
+        "tags": [
+          "NFL",
+          "AFC",
+          "AFC North"
+        ],
+        "place_key": "baltimore-maryland",
+        "context": "AFC, AFC North. Current home venue: M&T Bank Stadium, Baltimore, Maryland. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/baltimore-ravens/team-facts\nhttps://www.nfl.com/teams/baltimore-ravens/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "AFC",
+          "division": "AFC North",
+          "abbreviation": "BAL",
+          "brand_location": "Baltimore",
+          "home_city": "Baltimore",
+          "home_state": "Maryland",
+          "stadium": "M&T Bank Stadium",
+          "founding_year": 1996,
+          "founding_date": "1996-02-09",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1996-02-09",
+          "first_league_season": 1996,
+          "nfl_profile_established_year": 1996,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "buffalo-bills",
+        "name": "Buffalo Bills",
+        "kind": "team",
+        "aliases": [
+          "Bills",
+          "Buffalo",
+          "BUF"
+        ],
+        "tags": [
+          "NFL",
+          "AFC",
+          "AFC East"
+        ],
+        "place_key": "orchard-park-new-york",
+        "context": "AFC, AFC East. Current home venue: Highmark Stadium, Orchard Park, New York. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/buffalo-bills/team-facts\nhttps://www.nfl.com/teams/buffalo-bills/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "AFC",
+          "division": "AFC East",
+          "abbreviation": "BUF",
+          "brand_location": "Buffalo",
+          "home_city": "Orchard Park",
+          "home_state": "New York",
+          "stadium": "Highmark Stadium",
+          "founding_year": 1959,
+          "founding_date": "1959-10-28",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1959-10-28",
+          "first_league_season": 1960,
+          "nfl_profile_established_year": 1960,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "carolina-panthers",
+        "name": "Carolina Panthers",
+        "kind": "team",
+        "aliases": [
+          "Panthers",
+          "Carolina",
+          "CAR"
+        ],
+        "tags": [
+          "NFL",
+          "NFC",
+          "NFC South"
+        ],
+        "place_key": "charlotte-north-carolina",
+        "context": "NFC, NFC South. Current home venue: Bank of America Stadium, Charlotte, North Carolina. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/carolina-panthers/team-facts\nhttps://www.nfl.com/teams/carolina-panthers/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "NFC",
+          "division": "NFC South",
+          "abbreviation": "CAR",
+          "brand_location": "Carolina",
+          "home_city": "Charlotte",
+          "home_state": "North Carolina",
+          "stadium": "Bank of America Stadium",
+          "founding_year": 1993,
+          "founding_date": "1993-10-26",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1993-10-26",
+          "first_league_season": 1995,
+          "nfl_profile_established_year": 1995,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "chicago-bears",
+        "name": "Chicago Bears",
+        "kind": "team",
+        "aliases": [
+          "Bears",
+          "Chicago",
+          "CHI"
+        ],
+        "tags": [
+          "NFL",
+          "NFC",
+          "NFC North"
+        ],
+        "place_key": "chicago-illinois",
+        "context": "NFC, NFC North. Current home venue: Soldier Field, Chicago, Illinois. Decatur Staleys predecessor formed in 1919; joined APFA in 1920. Day/month of predecessor formation not established here. 1920 is the NFL/APFA franchise date. Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/chicago-bears/team-facts\nhttps://www.nfl.com/teams/chicago-bears/\nhttps://www.chicagobears.com/news/chicago-bears-primient-announce-multi-year-partnership-to-preserve-and-share-team-history\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "NFC",
+          "division": "NFC North",
+          "abbreviation": "CHI",
+          "brand_location": "Chicago",
+          "home_city": "Chicago",
+          "home_state": "Illinois",
+          "stadium": "Soldier Field",
+          "founding_year": 1919,
+          "founding_date": null,
+          "founding_basis": "Decatur Staleys predecessor formed in 1919; joined APFA in 1920.",
+          "franchise_awarded_date": "1920-09-17",
+          "first_league_season": 1920,
+          "nfl_profile_established_year": 1920,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "cincinnati-bengals",
+        "name": "Cincinnati Bengals",
+        "kind": "team",
+        "aliases": [
+          "Bengals",
+          "Cincinnati",
+          "CIN"
+        ],
+        "tags": [
+          "NFL",
+          "AFC",
+          "AFC North"
+        ],
+        "place_key": "cincinnati-ohio",
+        "context": "AFC, AFC North. Current home venue: Paycor Stadium, Cincinnati, Ohio. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/cincinnati-bengals/team-facts\nhttps://www.nfl.com/teams/cincinnati-bengals/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "AFC",
+          "division": "AFC North",
+          "abbreviation": "CIN",
+          "brand_location": "Cincinnati",
+          "home_city": "Cincinnati",
+          "home_state": "Ohio",
+          "stadium": "Paycor Stadium",
+          "founding_year": 1967,
+          "founding_date": "1967-05-23",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1967-05-23",
+          "first_league_season": 1968,
+          "nfl_profile_established_year": 1968,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "cleveland-browns",
+        "name": "Cleveland Browns",
+        "kind": "team",
+        "aliases": [
+          "Browns",
+          "Cleveland",
+          "CLE"
+        ],
+        "tags": [
+          "NFL",
+          "AFC",
+          "AFC North"
+        ],
+        "place_key": "cleveland-ohio",
+        "context": "AFC, AFC North. Current home venue: Huntington Bank Field, Cleveland, Ohio. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/cleveland-browns/team-facts\nhttps://www.nfl.com/teams/cleveland-browns/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "AFC",
+          "division": "AFC North",
+          "abbreviation": "CLE",
+          "brand_location": "Cleveland",
+          "home_city": "Cleveland",
+          "home_state": "Ohio",
+          "stadium": "Huntington Bank Field",
+          "founding_year": 1944,
+          "founding_date": "1944-06-04",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1944-06-04",
+          "first_league_season": 1946,
+          "nfl_profile_established_year": 1946,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "dallas-cowboys",
+        "name": "Dallas Cowboys",
+        "kind": "team",
+        "aliases": [
+          "Cowboys",
+          "Dallas",
+          "DAL"
+        ],
+        "tags": [
+          "NFL",
+          "NFC",
+          "NFC East"
+        ],
+        "place_key": "arlington-texas",
+        "context": "NFC, NFC East. Current home venue: AT&T Stadium, Arlington, Texas. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/dallas-cowboys/team-facts\nhttps://www.nfl.com/teams/dallas-cowboys/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "NFC",
+          "division": "NFC East",
+          "abbreviation": "DAL",
+          "brand_location": "Dallas",
+          "home_city": "Arlington",
+          "home_state": "Texas",
+          "stadium": "AT&T Stadium",
+          "founding_year": 1960,
+          "founding_date": "1960-01-28",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1960-01-28",
+          "first_league_season": 1960,
+          "nfl_profile_established_year": 1960,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "denver-broncos",
+        "name": "Denver Broncos",
+        "kind": "team",
+        "aliases": [
+          "Broncos",
+          "Denver",
+          "DEN"
+        ],
+        "tags": [
+          "NFL",
+          "AFC",
+          "AFC West"
+        ],
+        "place_key": "denver-colorado",
+        "context": "AFC, AFC West. Current home venue: Empower Field at Mile High, Denver, Colorado. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/denver-broncos/team-facts\nhttps://www.nfl.com/teams/denver-broncos/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "AFC",
+          "division": "AFC West",
+          "abbreviation": "DEN",
+          "brand_location": "Denver",
+          "home_city": "Denver",
+          "home_state": "Colorado",
+          "stadium": "Empower Field at Mile High",
+          "founding_year": 1959,
+          "founding_date": "1959-08-14",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1959-08-14",
+          "first_league_season": 1960,
+          "nfl_profile_established_year": 1960,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "detroit-lions",
+        "name": "Detroit Lions",
+        "kind": "team",
+        "aliases": [
+          "Lions",
+          "Detroit",
+          "DET"
+        ],
+        "tags": [
+          "NFL",
+          "NFC",
+          "NFC North"
+        ],
+        "place_key": "detroit-michigan",
+        "context": "NFC, NFC North. Current home venue: Ford Field, Detroit, Michigan. Portsmouth Spartans predecessor founded in 1928; entered NFL in 1930. Founding year uses predecessor history; 1930 is NFL admission and 1934 is relocation/name change to Detroit Lions. Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/detroit-lions/team-facts\nhttps://www.nfl.com/teams/detroit-lions/\nhttps://en.wikipedia.org/wiki/Portsmouth_Spartans\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "NFC",
+          "division": "NFC North",
+          "abbreviation": "DET",
+          "brand_location": "Detroit",
+          "home_city": "Detroit",
+          "home_state": "Michigan",
+          "stadium": "Ford Field",
+          "founding_year": 1928,
+          "founding_date": null,
+          "founding_basis": "Portsmouth Spartans predecessor founded in 1928; entered NFL in 1930.",
+          "franchise_awarded_date": "1930-07-12",
+          "first_league_season": 1930,
+          "nfl_profile_established_year": 1930,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "green-bay-packers",
+        "name": "Green Bay Packers",
+        "kind": "team",
+        "aliases": [
+          "Packers",
+          "Green Bay",
+          "GB"
+        ],
+        "tags": [
+          "NFL",
+          "NFC",
+          "NFC North"
+        ],
+        "place_key": "green-bay-wisconsin",
+        "context": "NFC, NFC North. Current home venue: Lambeau Field, Green Bay, Wisconsin. Team organizational meeting, from Packers official history. Team formed before 1921 league admission. Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/green-bay-packers/team-facts\nhttps://www.nfl.com/teams/green-bay-packers/\nhttps://www.packers.com/history/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "NFC",
+          "division": "NFC North",
+          "abbreviation": "GB",
+          "brand_location": "Green Bay",
+          "home_city": "Green Bay",
+          "home_state": "Wisconsin",
+          "stadium": "Lambeau Field",
+          "founding_year": 1919,
+          "founding_date": "1919-08-11",
+          "founding_basis": "Team organizational meeting, from Packers official history.",
+          "franchise_awarded_date": "1921-08-27",
+          "first_league_season": 1921,
+          "nfl_profile_established_year": 1921,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "houston-texans",
+        "name": "Houston Texans",
+        "kind": "team",
+        "aliases": [
+          "Texans",
+          "Houston",
+          "HOU"
+        ],
+        "tags": [
+          "NFL",
+          "AFC",
+          "AFC South"
+        ],
+        "place_key": "houston-texas",
+        "context": "AFC, AFC South. Current home venue: Reliant Stadium, Houston, Texas. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/houston-texans/team-facts\nhttps://www.nfl.com/teams/houston-texans/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "AFC",
+          "division": "AFC South",
+          "abbreviation": "HOU",
+          "brand_location": "Houston",
+          "home_city": "Houston",
+          "home_state": "Texas",
+          "stadium": "Reliant Stadium",
+          "founding_year": 1999,
+          "founding_date": "1999-10-06",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1999-10-06",
+          "first_league_season": 2002,
+          "nfl_profile_established_year": 2002,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "indianapolis-colts",
+        "name": "Indianapolis Colts",
+        "kind": "team",
+        "aliases": [
+          "Colts",
+          "Indianapolis",
+          "IND"
+        ],
+        "tags": [
+          "NFL",
+          "AFC",
+          "AFC South"
+        ],
+        "place_key": "indianapolis-indiana",
+        "context": "AFC, AFC South. Current home venue: Lucas Oil Stadium, Indianapolis, Indiana. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/indianapolis-colts/team-facts\nhttps://www.nfl.com/teams/indianapolis-colts/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "AFC",
+          "division": "AFC South",
+          "abbreviation": "IND",
+          "brand_location": "Indianapolis",
+          "home_city": "Indianapolis",
+          "home_state": "Indiana",
+          "stadium": "Lucas Oil Stadium",
+          "founding_year": 1953,
+          "founding_date": "1953-01-23",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1953-01-23",
+          "first_league_season": 1953,
+          "nfl_profile_established_year": 1953,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "jacksonville-jaguars",
+        "name": "Jacksonville Jaguars",
+        "kind": "team",
+        "aliases": [
+          "Jaguars",
+          "Jacksonville",
+          "JAX",
+          "Jags"
+        ],
+        "tags": [
+          "NFL",
+          "AFC",
+          "AFC South"
+        ],
+        "place_key": "jacksonville-florida",
+        "context": "AFC, AFC South. Current home venue: EverBank Stadium, Jacksonville, Florida. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/jacksonville-jaguars/team-facts\nhttps://www.nfl.com/teams/jacksonville-jaguars/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "AFC",
+          "division": "AFC South",
+          "abbreviation": "JAX",
+          "brand_location": "Jacksonville",
+          "home_city": "Jacksonville",
+          "home_state": "Florida",
+          "stadium": "EverBank Stadium",
+          "founding_year": 1993,
+          "founding_date": "1993-11-30",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1993-11-30",
+          "first_league_season": 1995,
+          "nfl_profile_established_year": 1995,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "kansas-city-chiefs",
+        "name": "Kansas City Chiefs",
+        "kind": "team",
+        "aliases": [
+          "Chiefs",
+          "Kansas City",
+          "KC"
+        ],
+        "tags": [
+          "NFL",
+          "AFC",
+          "AFC West"
+        ],
+        "place_key": "kansas-city-missouri",
+        "context": "AFC, AFC West. Current home venue: Arrowhead Stadium, Kansas City, Missouri. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/kansas-city-chiefs/team-facts\nhttps://www.nfl.com/teams/kansas-city-chiefs/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "AFC",
+          "division": "AFC West",
+          "abbreviation": "KC",
+          "brand_location": "Kansas City",
+          "home_city": "Kansas City",
+          "home_state": "Missouri",
+          "stadium": "Arrowhead Stadium",
+          "founding_year": 1959,
+          "founding_date": "1959-08-14",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1959-08-14",
+          "first_league_season": 1960,
+          "nfl_profile_established_year": 1960,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "las-vegas-raiders",
+        "name": "Las Vegas Raiders",
+        "kind": "team",
+        "aliases": [
+          "Raiders",
+          "Las Vegas",
+          "LV"
+        ],
+        "tags": [
+          "NFL",
+          "AFC",
+          "AFC West"
+        ],
+        "place_key": "paradise-nevada",
+        "context": "AFC, AFC West. Current home venue: Allegiant Stadium, Paradise, Nevada. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/las-vegas-raiders/team-facts\nhttps://www.nfl.com/teams/las-vegas-raiders/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "AFC",
+          "division": "AFC West",
+          "abbreviation": "LV",
+          "brand_location": "Las Vegas",
+          "home_city": "Paradise",
+          "home_state": "Nevada",
+          "stadium": "Allegiant Stadium",
+          "founding_year": 1960,
+          "founding_date": "1960-01-30",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1960-01-30",
+          "first_league_season": 1960,
+          "nfl_profile_established_year": 1960,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "los-angeles-chargers",
+        "name": "Los Angeles Chargers",
+        "kind": "team",
+        "aliases": [
+          "Chargers",
+          "Los Angeles",
+          "LAC",
+          "LA Chargers"
+        ],
+        "tags": [
+          "NFL",
+          "AFC",
+          "AFC West"
+        ],
+        "place_key": "inglewood-california",
+        "context": "AFC, AFC West. Current home venue: SoFi Stadium, Inglewood, California. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/los-angeles-chargers/team-facts\nhttps://www.nfl.com/teams/los-angeles-chargers/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "AFC",
+          "division": "AFC West",
+          "abbreviation": "LAC",
+          "brand_location": "Los Angeles",
+          "home_city": "Inglewood",
+          "home_state": "California",
+          "stadium": "SoFi Stadium",
+          "founding_year": 1959,
+          "founding_date": "1959-08-14",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1959-08-14",
+          "first_league_season": 1960,
+          "nfl_profile_established_year": 1960,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "los-angeles-rams",
+        "name": "Los Angeles Rams",
+        "kind": "team",
+        "aliases": [
+          "Rams",
+          "Los Angeles",
+          "LAR",
+          "LA Rams"
+        ],
+        "tags": [
+          "NFL",
+          "NFC",
+          "NFC West"
+        ],
+        "place_key": "inglewood-california",
+        "context": "NFC, NFC West. Current home venue: SoFi Stadium, Inglewood, California. Cleveland Rams predecessor began in 1936 before NFL admission. Hall of Fame lists franchise grant on 1937-02-12; Rams official narrative says 1937-02-13. One-day source disagreement is recorded; do not treat the date as settled. Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/los-angeles-rams/team-facts\nhttps://www.nfl.com/teams/los-angeles-rams/\nhttps://en.wikipedia.org/wiki/Cleveland_Rams\nhttps://www.therams.com/news/the-rams-story\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "NFC",
+          "division": "NFC West",
+          "abbreviation": "LAR",
+          "brand_location": "Los Angeles",
+          "home_city": "Inglewood",
+          "home_state": "California",
+          "stadium": "SoFi Stadium",
+          "founding_year": 1936,
+          "founding_date": null,
+          "founding_basis": "Cleveland Rams predecessor began in 1936 before NFL admission.",
+          "franchise_awarded_date": "1937-02-12",
+          "first_league_season": 1937,
+          "nfl_profile_established_year": 1937,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "miami-dolphins",
+        "name": "Miami Dolphins",
+        "kind": "team",
+        "aliases": [
+          "Dolphins",
+          "Miami",
+          "MIA"
+        ],
+        "tags": [
+          "NFL",
+          "AFC",
+          "AFC East"
+        ],
+        "place_key": "miami-gardens-florida",
+        "context": "AFC, AFC East. Current home venue: Hard Rock Stadium, Miami Gardens, Florida. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/miami-dolphins/team-facts\nhttps://www.nfl.com/teams/miami-dolphins/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "AFC",
+          "division": "AFC East",
+          "abbreviation": "MIA",
+          "brand_location": "Miami",
+          "home_city": "Miami Gardens",
+          "home_state": "Florida",
+          "stadium": "Hard Rock Stadium",
+          "founding_year": 1965,
+          "founding_date": "1965-08-16",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1965-08-16",
+          "first_league_season": 1966,
+          "nfl_profile_established_year": 1966,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "minnesota-vikings",
+        "name": "Minnesota Vikings",
+        "kind": "team",
+        "aliases": [
+          "Vikings",
+          "Minnesota",
+          "MIN"
+        ],
+        "tags": [
+          "NFL",
+          "NFC",
+          "NFC North"
+        ],
+        "place_key": "minneapolis-minnesota",
+        "context": "NFC, NFC North. Current home venue: U.S. Bank Stadium, Minneapolis, Minnesota. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/minnesota-vikings/team-facts\nhttps://www.nfl.com/teams/minnesota-vikings/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "NFC",
+          "division": "NFC North",
+          "abbreviation": "MIN",
+          "brand_location": "Minnesota",
+          "home_city": "Minneapolis",
+          "home_state": "Minnesota",
+          "stadium": "U.S. Bank Stadium",
+          "founding_year": 1960,
+          "founding_date": "1960-01-28",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1960-01-28",
+          "first_league_season": 1961,
+          "nfl_profile_established_year": 1961,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "new-england-patriots",
+        "name": "New England Patriots",
+        "kind": "team",
+        "aliases": [
+          "Patriots",
+          "New England",
+          "NE",
+          "Pats"
+        ],
+        "tags": [
+          "NFL",
+          "AFC",
+          "AFC East"
+        ],
+        "place_key": "foxborough-massachusetts",
+        "context": "AFC, AFC East. Current home venue: Gillette Stadium, Foxborough, Massachusetts. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/new-england-patriots/team-facts\nhttps://www.nfl.com/teams/new-england-patriots/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "AFC",
+          "division": "AFC East",
+          "abbreviation": "NE",
+          "brand_location": "New England",
+          "home_city": "Foxborough",
+          "home_state": "Massachusetts",
+          "stadium": "Gillette Stadium",
+          "founding_year": 1959,
+          "founding_date": "1959-11-22",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1959-11-22",
+          "first_league_season": 1960,
+          "nfl_profile_established_year": 1960,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "new-orleans-saints",
+        "name": "New Orleans Saints",
+        "kind": "team",
+        "aliases": [
+          "Saints",
+          "New Orleans",
+          "NO"
+        ],
+        "tags": [
+          "NFL",
+          "NFC",
+          "NFC South"
+        ],
+        "place_key": "new-orleans-louisiana",
+        "context": "NFC, NFC South. Current home venue: Caesars Superdome, New Orleans, Louisiana. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/new-orleans-saints/team-facts\nhttps://www.nfl.com/teams/new-orleans-saints/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "NFC",
+          "division": "NFC South",
+          "abbreviation": "NO",
+          "brand_location": "New Orleans",
+          "home_city": "New Orleans",
+          "home_state": "Louisiana",
+          "stadium": "Caesars Superdome",
+          "founding_year": 1966,
+          "founding_date": "1966-11-01",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1966-11-01",
+          "first_league_season": 1967,
+          "nfl_profile_established_year": 1967,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "new-york-giants",
+        "name": "New York Giants",
+        "kind": "team",
+        "aliases": [
+          "Giants",
+          "New York",
+          "NYG",
+          "NY Giants"
+        ],
+        "tags": [
+          "NFL",
+          "NFC",
+          "NFC East"
+        ],
+        "place_key": "east-rutherford-new-jersey",
+        "context": "NFC, NFC East. Current home venue: MetLife Stadium, East Rutherford, New Jersey. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/new-york-giants/team-facts\nhttps://www.nfl.com/teams/new-york-giants/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "NFC",
+          "division": "NFC East",
+          "abbreviation": "NYG",
+          "brand_location": "New York",
+          "home_city": "East Rutherford",
+          "home_state": "New Jersey",
+          "stadium": "MetLife Stadium",
+          "founding_year": 1925,
+          "founding_date": "1925-08-01",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1925-08-01",
+          "first_league_season": 1925,
+          "nfl_profile_established_year": 1925,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "new-york-jets",
+        "name": "New York Jets",
+        "kind": "team",
+        "aliases": [
+          "Jets",
+          "New York",
+          "NYJ",
+          "NY Jets"
+        ],
+        "tags": [
+          "NFL",
+          "AFC",
+          "AFC East"
+        ],
+        "place_key": "east-rutherford-new-jersey",
+        "context": "AFC, AFC East. Current home venue: MetLife Stadium, East Rutherford, New Jersey. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/new-york-jets/team-facts\nhttps://www.nfl.com/teams/new-york-jets/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "AFC",
+          "division": "AFC East",
+          "abbreviation": "NYJ",
+          "brand_location": "New York",
+          "home_city": "East Rutherford",
+          "home_state": "New Jersey",
+          "stadium": "MetLife Stadium",
+          "founding_year": 1959,
+          "founding_date": "1959-08-14",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1959-08-14",
+          "first_league_season": 1960,
+          "nfl_profile_established_year": 1960,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "philadelphia-eagles",
+        "name": "Philadelphia Eagles",
+        "kind": "team",
+        "aliases": [
+          "Eagles",
+          "Philadelphia",
+          "PHI"
+        ],
+        "tags": [
+          "NFL",
+          "NFC",
+          "NFC East"
+        ],
+        "place_key": "philadelphia-pennsylvania",
+        "context": "NFC, NFC East. Current home venue: Lincoln Financial Field, Philadelphia, Pennsylvania. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/philadelphia-eagles/team-facts\nhttps://www.nfl.com/teams/philadelphia-eagles/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "NFC",
+          "division": "NFC East",
+          "abbreviation": "PHI",
+          "brand_location": "Philadelphia",
+          "home_city": "Philadelphia",
+          "home_state": "Pennsylvania",
+          "stadium": "Lincoln Financial Field",
+          "founding_year": 1933,
+          "founding_date": "1933-07-08",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1933-07-08",
+          "first_league_season": 1933,
+          "nfl_profile_established_year": 1933,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "pittsburgh-steelers",
+        "name": "Pittsburgh Steelers",
+        "kind": "team",
+        "aliases": [
+          "Steelers",
+          "Pittsburgh",
+          "PIT"
+        ],
+        "tags": [
+          "NFL",
+          "AFC",
+          "AFC North"
+        ],
+        "place_key": "pittsburgh-pennsylvania",
+        "context": "AFC, AFC North. Current home venue: Acrisure Stadium, Pittsburgh, Pennsylvania. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/pittsburgh-steelers/team-facts\nhttps://www.nfl.com/teams/pittsburgh-steelers/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "AFC",
+          "division": "AFC North",
+          "abbreviation": "PIT",
+          "brand_location": "Pittsburgh",
+          "home_city": "Pittsburgh",
+          "home_state": "Pennsylvania",
+          "stadium": "Acrisure Stadium",
+          "founding_year": 1933,
+          "founding_date": "1933-07-08",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1933-07-08",
+          "first_league_season": 1933,
+          "nfl_profile_established_year": 1933,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "san-francisco-49ers",
+        "name": "San Francisco 49ers",
+        "kind": "team",
+        "aliases": [
+          "49ers",
+          "San Francisco",
+          "SF",
+          "Niners"
+        ],
+        "tags": [
+          "NFL",
+          "NFC",
+          "NFC West"
+        ],
+        "place_key": "santa-clara-california",
+        "context": "NFC, NFC West. Current home venue: Levi's® Stadium, Santa Clara, California. 49ers official history identifies 1946 as the founding year. Hall of Fame lists AAFC franchise grant in 1944; team commemorates founding in 1946. These are separate records. Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/san-francisco-49ers/team-facts\nhttps://www.nfl.com/teams/san-francisco-49ers/\nhttps://www.49ers.com/news/49ers-unveil-commemorative-logo-to-kickoff-70th-anniversary-celebration-16903068\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "NFC",
+          "division": "NFC West",
+          "abbreviation": "SF",
+          "brand_location": "San Francisco",
+          "home_city": "Santa Clara",
+          "home_state": "California",
+          "stadium": "Levi's® Stadium",
+          "founding_year": 1946,
+          "founding_date": null,
+          "founding_basis": "49ers official history identifies 1946 as the founding year.",
+          "franchise_awarded_date": "1944-06-04",
+          "first_league_season": 1946,
+          "nfl_profile_established_year": 1946,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "seattle-seahawks",
+        "name": "Seattle Seahawks",
+        "kind": "team",
+        "aliases": [
+          "Seahawks",
+          "Seattle",
+          "SEA",
+          "Hawks"
+        ],
+        "tags": [
+          "NFL",
+          "NFC",
+          "NFC West"
+        ],
+        "place_key": "seattle-washington",
+        "context": "NFC, NFC West. Current home venue: Lumen Field, Seattle, Washington. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/seattle-seahawks/team-facts\nhttps://www.nfl.com/teams/seattle-seahawks/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "NFC",
+          "division": "NFC West",
+          "abbreviation": "SEA",
+          "brand_location": "Seattle",
+          "home_city": "Seattle",
+          "home_state": "Washington",
+          "stadium": "Lumen Field",
+          "founding_year": 1974,
+          "founding_date": "1974-06-04",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1974-06-04",
+          "first_league_season": 1976,
+          "nfl_profile_established_year": 1976,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "tampa-bay-buccaneers",
+        "name": "Tampa Bay Buccaneers",
+        "kind": "team",
+        "aliases": [
+          "Buccaneers",
+          "Tampa Bay",
+          "TB",
+          "Bucs"
+        ],
+        "tags": [
+          "NFL",
+          "NFC",
+          "NFC South"
+        ],
+        "place_key": "tampa-florida",
+        "context": "NFC, NFC South. Current home venue: Raymond James Stadium, Tampa, Florida. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/tampa-bay-buccaneers/team-facts\nhttps://www.nfl.com/teams/tampa-bay-buccaneers/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "NFC",
+          "division": "NFC South",
+          "abbreviation": "TB",
+          "brand_location": "Tampa Bay",
+          "home_city": "Tampa",
+          "home_state": "Florida",
+          "stadium": "Raymond James Stadium",
+          "founding_year": 1974,
+          "founding_date": "1974-04-24",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1974-04-24",
+          "first_league_season": 1976,
+          "nfl_profile_established_year": 1976,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "tennessee-titans",
+        "name": "Tennessee Titans",
+        "kind": "team",
+        "aliases": [
+          "Titans",
+          "Tennessee",
+          "TEN"
+        ],
+        "tags": [
+          "NFL",
+          "AFC",
+          "AFC South"
+        ],
+        "place_key": "nashville-tennessee",
+        "context": "AFC, AFC South. Current home venue: Nissan Stadium, Nashville, Tennessee. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/tennessee-titans/team-facts\nhttps://www.nfl.com/teams/tennessee-titans/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "AFC",
+          "division": "AFC South",
+          "abbreviation": "TEN",
+          "brand_location": "Tennessee",
+          "home_city": "Nashville",
+          "home_state": "Tennessee",
+          "stadium": "Nissan Stadium",
+          "founding_year": 1959,
+          "founding_date": "1959-08-14",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1959-08-14",
+          "first_league_season": 1960,
+          "nfl_profile_established_year": 1960,
+          "as_of": "2026-10-13"
+        }
+      },
+      {
+        "key": "washington-commanders",
+        "name": "Washington Commanders",
+        "kind": "team",
+        "aliases": [
+          "Commanders",
+          "Washington",
+          "WAS",
+          "WSH"
+        ],
+        "tags": [
+          "NFL",
+          "NFC",
+          "NFC East"
+        ],
+        "place_key": "landover-maryland",
+        "context": "NFC, NFC East. Current home venue: Northwest Stadium, Landover, Maryland. Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.  Home/default place is current geography; historical founding events are not assigned to the current stadium.",
+        "source": "https://www.profootballhof.com/teams/washington-commanders/team-facts\nhttps://www.nfl.com/teams/washington-commanders/\nReviewed 2026-10-13",
+        "attributes": {
+          "league": "NFL",
+          "conference": "NFC",
+          "division": "NFC East",
+          "abbreviation": "WAS",
+          "brand_location": "Washington",
+          "home_city": "Landover",
+          "home_state": "Maryland",
+          "stadium": "Northwest Stadium",
+          "founding_year": 1932,
+          "founding_date": "1932-07-09",
+          "founding_basis": "Franchise award date reported by Pro Football Hall of Fame; distinct from first playing season.",
+          "franchise_awarded_date": "1932-07-09",
+          "first_league_season": 1932,
+          "nfl_profile_established_year": 1932,
+          "as_of": "2026-10-13"
+        }
+      }
+    ],
+    "places": [
+      {
+        "key": "glendale-arizona",
+        "name": "Glendale, Arizona",
+        "latitude": 33.53865,
+        "longitude": -112.18599,
+        "elevation_m": 351.0,
+        "timezone": "America/Phoenix",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.azcardinals.com/gameday/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Glendale%2C+Arizona&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.azcardinals.com/gameday/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Glendale",
+          "state": "Arizona",
+          "country": "US",
+          "geonames_id": "5295985"
+        }
+      },
+      {
+        "key": "atlanta-georgia",
+        "name": "Atlanta, Georgia",
+        "latitude": 33.749,
+        "longitude": -84.38798,
+        "elevation_m": 320.0,
+        "timezone": "America/New_York",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/atlanta-falcons/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Atlanta%2C+Georgia&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/atlanta-falcons/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Atlanta",
+          "state": "Georgia",
+          "country": "US",
+          "geonames_id": "4180439"
+        }
+      },
+      {
+        "key": "baltimore-maryland",
+        "name": "Baltimore, Maryland",
+        "latitude": 39.29038,
+        "longitude": -76.61219,
+        "elevation_m": 10.0,
+        "timezone": "America/New_York",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/baltimore-ravens/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Baltimore%2C+Maryland&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/baltimore-ravens/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Baltimore",
+          "state": "Maryland",
+          "country": "US",
+          "geonames_id": "4347778"
+        }
+      },
+      {
+        "key": "orchard-park-new-york",
+        "name": "Orchard Park, New York",
+        "latitude": 42.76756,
+        "longitude": -78.74392,
+        "elevation_m": 263.0,
+        "timezone": "America/New_York",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.buffalobills.com/stadium/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Orchard+Park%2C+New+York&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.buffalobills.com/stadium/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Orchard Park",
+          "state": "New York",
+          "country": "US",
+          "geonames_id": "5129951"
+        }
+      },
+      {
+        "key": "charlotte-north-carolina",
+        "name": "Charlotte, North Carolina",
+        "latitude": 35.22709,
+        "longitude": -80.84313,
+        "elevation_m": 229.0,
+        "timezone": "America/New_York",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/carolina-panthers/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Charlotte%2C+North+Carolina&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/carolina-panthers/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Charlotte",
+          "state": "North Carolina",
+          "country": "US",
+          "geonames_id": "4460243"
+        }
+      },
+      {
+        "key": "chicago-illinois",
+        "name": "Chicago, Illinois",
+        "latitude": 41.85003,
+        "longitude": -87.65005,
+        "elevation_m": 179.0,
+        "timezone": "America/Chicago",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/chicago-bears/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Chicago%2C+Illinois&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/chicago-bears/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Chicago",
+          "state": "Illinois",
+          "country": "US",
+          "geonames_id": "4887398"
+        }
+      },
+      {
+        "key": "cincinnati-ohio",
+        "name": "Cincinnati, Ohio",
+        "latitude": 39.12711,
+        "longitude": -84.51439,
+        "elevation_m": 191.0,
+        "timezone": "America/New_York",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/cincinnati-bengals/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Cincinnati%2C+Ohio&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/cincinnati-bengals/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Cincinnati",
+          "state": "Ohio",
+          "country": "US",
+          "geonames_id": "4508722"
+        }
+      },
+      {
+        "key": "cleveland-ohio",
+        "name": "Cleveland, Ohio",
+        "latitude": 41.4995,
+        "longitude": -81.69541,
+        "elevation_m": 199.0,
+        "timezone": "America/New_York",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/cleveland-browns/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Cleveland%2C+Ohio&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/cleveland-browns/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Cleveland",
+          "state": "Ohio",
+          "country": "US",
+          "geonames_id": "5150529"
+        }
+      },
+      {
+        "key": "arlington-texas",
+        "name": "Arlington, Texas",
+        "latitude": 32.73569,
+        "longitude": -97.10807,
+        "elevation_m": 184.0,
+        "timezone": "America/Chicago",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.dallascowboys.com/stadium/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Arlington%2C+Texas&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.dallascowboys.com/stadium/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Arlington",
+          "state": "Texas",
+          "country": "US",
+          "geonames_id": "4671240"
+        }
+      },
+      {
+        "key": "denver-colorado",
+        "name": "Denver, Colorado",
+        "latitude": 39.73915,
+        "longitude": -104.9847,
+        "elevation_m": 1609.0,
+        "timezone": "America/Denver",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/denver-broncos/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Denver%2C+Colorado&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/denver-broncos/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Denver",
+          "state": "Colorado",
+          "country": "US",
+          "geonames_id": "5419384"
+        }
+      },
+      {
+        "key": "detroit-michigan",
+        "name": "Detroit, Michigan",
+        "latitude": 42.33143,
+        "longitude": -83.04575,
+        "elevation_m": 183.0,
+        "timezone": "America/Detroit",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/detroit-lions/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Detroit%2C+Michigan&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/detroit-lions/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Detroit",
+          "state": "Michigan",
+          "country": "US",
+          "geonames_id": "4990729"
+        }
+      },
+      {
+        "key": "green-bay-wisconsin",
+        "name": "Green Bay, Wisconsin",
+        "latitude": 44.51916,
+        "longitude": -88.01983,
+        "elevation_m": 180.0,
+        "timezone": "America/Chicago",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/green-bay-packers/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Green+Bay%2C+Wisconsin&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/green-bay-packers/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Green Bay",
+          "state": "Wisconsin",
+          "country": "US",
+          "geonames_id": "5254962"
+        }
+      },
+      {
+        "key": "houston-texas",
+        "name": "Houston, Texas",
+        "latitude": 29.76328,
+        "longitude": -95.36327,
+        "elevation_m": 12.0,
+        "timezone": "America/Chicago",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/houston-texans/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Houston%2C+Texas&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/houston-texans/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Houston",
+          "state": "Texas",
+          "country": "US",
+          "geonames_id": "4699066"
+        }
+      },
+      {
+        "key": "indianapolis-indiana",
+        "name": "Indianapolis, Indiana",
+        "latitude": 39.76838,
+        "longitude": -86.15804,
+        "elevation_m": 218.0,
+        "timezone": "America/Indiana/Indianapolis",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/indianapolis-colts/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Indianapolis%2C+Indiana&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/indianapolis-colts/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Indianapolis",
+          "state": "Indiana",
+          "country": "US",
+          "geonames_id": "4259418"
+        }
+      },
+      {
+        "key": "jacksonville-florida",
+        "name": "Jacksonville, Florida",
+        "latitude": 30.33218,
+        "longitude": -81.65565,
+        "elevation_m": 5.0,
+        "timezone": "America/New_York",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/jacksonville-jaguars/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Jacksonville%2C+Florida&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/jacksonville-jaguars/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Jacksonville",
+          "state": "Florida",
+          "country": "US",
+          "geonames_id": "4160021"
+        }
+      },
+      {
+        "key": "kansas-city-missouri",
+        "name": "Kansas City, Missouri",
+        "latitude": 39.09973,
+        "longitude": -94.57857,
+        "elevation_m": 274.0,
+        "timezone": "America/Chicago",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/kansas-city-chiefs/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Kansas+City%2C+Missouri&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/kansas-city-chiefs/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Kansas City",
+          "state": "Missouri",
+          "country": "US",
+          "geonames_id": "4393217"
+        }
+      },
+      {
+        "key": "paradise-nevada",
+        "name": "Paradise, Nevada",
+        "latitude": 36.09719,
+        "longitude": -115.14666,
+        "elevation_m": 627.0,
+        "timezone": "America/Los_Angeles",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://clark.legistar.com/View.ashx?GUID=D8684C7D-278D-400D-8D78-1CC2BD44C9A6&ID=1188490&M=E1",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Paradise%2C+Nevada&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://clark.legistar.com/View.ashx?GUID=D8684C7D-278D-400D-8D78-1CC2BD44C9A6&ID=1188490&M=E1\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Paradise",
+          "state": "Nevada",
+          "country": "US",
+          "geonames_id": "5509952"
+        }
+      },
+      {
+        "key": "inglewood-california",
+        "name": "Inglewood, California",
+        "latitude": 33.96168,
+        "longitude": -118.35313,
+        "elevation_m": 40.0,
+        "timezone": "America/Los_Angeles",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.chargers.com/sofi-stadium/parking/faq",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Inglewood%2C+California&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.chargers.com/sofi-stadium/parking/faq\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Inglewood",
+          "state": "California",
+          "country": "US",
+          "geonames_id": "5359488"
+        }
+      },
+      {
+        "key": "miami-gardens-florida",
+        "name": "Miami Gardens, Florida",
+        "latitude": 25.94204,
+        "longitude": -80.2456,
+        "elevation_m": 2.0,
+        "timezone": "America/New_York",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.miamigardens-fl.gov/DocumentCenter/View/7466/Miami-Gardens--20th-Anniversary-Book-PDF",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Miami+Gardens%2C+Florida&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.miamigardens-fl.gov/DocumentCenter/View/7466/Miami-Gardens--20th-Anniversary-Book-PDF\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Miami Gardens",
+          "state": "Florida",
+          "country": "US",
+          "geonames_id": "4164167"
+        }
+      },
+      {
+        "key": "minneapolis-minnesota",
+        "name": "Minneapolis, Minnesota",
+        "latitude": 44.97997,
+        "longitude": -93.26384,
+        "elevation_m": 253.0,
+        "timezone": "America/Chicago",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/minnesota-vikings/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Minneapolis%2C+Minnesota&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/minnesota-vikings/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Minneapolis",
+          "state": "Minnesota",
+          "country": "US",
+          "geonames_id": "5037649"
+        }
+      },
+      {
+        "key": "foxborough-massachusetts",
+        "name": "Foxborough, Massachusetts",
+        "latitude": 42.06538,
+        "longitude": -71.24783,
+        "elevation_m": 88.0,
+        "timezone": "America/New_York",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.gillettestadium.com/a-to-z-guide/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Foxborough%2C+Massachusetts&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.gillettestadium.com/a-to-z-guide/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Foxborough",
+          "state": "Massachusetts",
+          "country": "US",
+          "geonames_id": "4937222"
+        }
+      },
+      {
+        "key": "new-orleans-louisiana",
+        "name": "New Orleans, Louisiana",
+        "latitude": 29.95465,
+        "longitude": -90.07507,
+        "elevation_m": 0,
+        "timezone": "America/Chicago",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/new-orleans-saints/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=New+Orleans%2C+Louisiana&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/new-orleans-saints/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "New Orleans",
+          "state": "Louisiana",
+          "country": "US",
+          "geonames_id": "4335045"
+        }
+      },
+      {
+        "key": "east-rutherford-new-jersey",
+        "name": "East Rutherford, New Jersey",
+        "latitude": 40.83399,
+        "longitude": -74.09709,
+        "elevation_m": 24.0,
+        "timezone": "America/New_York",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.metlifestadium.com/getting-here/directions",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=East+Rutherford%2C+New+Jersey&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.metlifestadium.com/getting-here/directions\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "East Rutherford",
+          "state": "New Jersey",
+          "country": "US",
+          "geonames_id": "5097459"
+        }
+      },
+      {
+        "key": "philadelphia-pennsylvania",
+        "name": "Philadelphia, Pennsylvania",
+        "latitude": 39.95238,
+        "longitude": -75.16362,
+        "elevation_m": 12.0,
+        "timezone": "America/New_York",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/philadelphia-eagles/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Philadelphia%2C+Pennsylvania&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/philadelphia-eagles/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Philadelphia",
+          "state": "Pennsylvania",
+          "country": "US",
+          "geonames_id": "4560349"
+        }
+      },
+      {
+        "key": "pittsburgh-pennsylvania",
+        "name": "Pittsburgh, Pennsylvania",
+        "latitude": 40.44062,
+        "longitude": -79.99589,
+        "elevation_m": 233.0,
+        "timezone": "America/New_York",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/pittsburgh-steelers/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Pittsburgh%2C+Pennsylvania&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/pittsburgh-steelers/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Pittsburgh",
+          "state": "Pennsylvania",
+          "country": "US",
+          "geonames_id": "5206379"
+        }
+      },
+      {
+        "key": "santa-clara-california",
+        "name": "Santa Clara, California",
+        "latitude": 37.35411,
+        "longitude": -121.95524,
+        "elevation_m": 23.0,
+        "timezone": "America/Los_Angeles",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://levisstadium.com/contact-us/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Santa+Clara%2C+California&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://levisstadium.com/contact-us/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Santa Clara",
+          "state": "California",
+          "country": "US",
+          "geonames_id": "5393015"
+        }
+      },
+      {
+        "key": "seattle-washington",
+        "name": "Seattle, Washington",
+        "latitude": 47.60621,
+        "longitude": -122.33207,
+        "elevation_m": 56.0,
+        "timezone": "America/Los_Angeles",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/seattle-seahawks/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Seattle%2C+Washington&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/seattle-seahawks/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Seattle",
+          "state": "Washington",
+          "country": "US",
+          "geonames_id": "5809844"
+        }
+      },
+      {
+        "key": "tampa-florida",
+        "name": "Tampa, Florida",
+        "latitude": 27.94752,
+        "longitude": -82.45843,
+        "elevation_m": 1.0,
+        "timezone": "America/New_York",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/tampa-bay-buccaneers/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Tampa%2C+Florida&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/tampa-bay-buccaneers/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Tampa",
+          "state": "Florida",
+          "country": "US",
+          "geonames_id": "4174757"
+        }
+      },
+      {
+        "key": "nashville-tennessee",
+        "name": "Nashville, Tennessee",
+        "latitude": 36.16589,
+        "longitude": -86.78444,
+        "elevation_m": 170.0,
+        "timezone": "America/Chicago",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.nfl.com/teams/tennessee-titans/",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Nashville%2C+Tennessee&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.nfl.com/teams/tennessee-titans/\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Nashville",
+          "state": "Tennessee",
+          "country": "US",
+          "geonames_id": "4644585"
+        }
+      },
+      {
+        "key": "landover-maryland",
+        "name": "Landover, Maryland",
+        "latitude": 38.934,
+        "longitude": -76.89664,
+        "elevation_m": 17.0,
+        "timezone": "America/New_York",
+        "context": "Current NFL home municipality. Approximate GeoNames city reference point; not stadium coordinates. Do not use this point for venue-distance claims. Venue municipality source: https://www.commanders.com/stadium/stadium-guide",
+        "source": "https://geocoding-api.open-meteo.com/v1/search?name=Landover%2C+Maryland&countryCode=US&count=10&language=en&format=json\nhttps://open-meteo.com/en/docs/geocoding-api (GeoNames; CC BY 4.0)\nhttps://www.commanders.com/stadium/stadium-guide\nReviewed 2026-10-13",
+        "attributes": {
+          "coordinate_precision": "city reference point",
+          "city": "Landover",
+          "state": "Maryland",
+          "country": "US",
+          "geonames_id": "4360287"
+        }
+      }
+    ],
+    "observations": [
+      {
+        "key": "arizona-cardinals-franchise-award",
+        "label": "Arizona Cardinals · franchise awarded",
+        "date": "1920-09-17",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "arizona-cardinals",
+        "place_key": null,
+        "context": "September 17, 1920 as the Chicago Cardinals, Charter Member of NFL. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. Original formation day/month not asserted; 1920 date is APFA/NFL admission.",
+        "source": "https://www.profootballhof.com/teams/arizona-cardinals/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "atlanta-falcons-franchise-award",
+        "label": "Atlanta Falcons · franchise awarded",
+        "date": "1965-06-30",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "atlanta-falcons",
+        "place_key": null,
+        "context": "June 30, 1965. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/atlanta-falcons/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "baltimore-ravens-franchise-award",
+        "label": "Baltimore Ravens · franchise awarded",
+        "date": "1996-02-09",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "baltimore-ravens",
+        "place_key": null,
+        "context": "February 9, 1996. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/baltimore-ravens/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "buffalo-bills-franchise-award",
+        "label": "Buffalo Bills · franchise awarded",
+        "date": "1959-10-28",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "buffalo-bills",
+        "place_key": null,
+        "context": "October 28, 1959. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/buffalo-bills/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "carolina-panthers-franchise-award",
+        "label": "Carolina Panthers · franchise awarded",
+        "date": "1993-10-26",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "carolina-panthers",
+        "place_key": null,
+        "context": "October 26, 1993. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/carolina-panthers/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "chicago-bears-franchise-award",
+        "label": "Chicago Bears · franchise awarded",
+        "date": "1920-09-17",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "chicago-bears",
+        "place_key": null,
+        "context": "September 17, 1920 as the Decatur Staleys, Charter Member of NFL. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. Day/month of predecessor formation not established here. 1920 is the NFL/APFA franchise date.",
+        "source": "https://www.profootballhof.com/teams/chicago-bears/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "cincinnati-bengals-franchise-award",
+        "label": "Cincinnati Bengals · franchise awarded",
+        "date": "1967-05-23",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "cincinnati-bengals",
+        "place_key": null,
+        "context": "May 23, 1967. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/cincinnati-bengals/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "cleveland-browns-franchise-award",
+        "label": "Cleveland Browns · franchise awarded",
+        "date": "1944-06-04",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "cleveland-browns",
+        "place_key": null,
+        "context": "June 4, 1944 as Charter Member of AAFC. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/cleveland-browns/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "dallas-cowboys-franchise-award",
+        "label": "Dallas Cowboys · franchise awarded",
+        "date": "1960-01-28",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "dallas-cowboys",
+        "place_key": null,
+        "context": "January 28, 1960. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/dallas-cowboys/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "denver-broncos-franchise-award",
+        "label": "Denver Broncos · franchise awarded",
+        "date": "1959-08-14",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "denver-broncos",
+        "place_key": null,
+        "context": "August 14, 1959 as Charter Member of AFL. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/denver-broncos/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "detroit-lions-franchise-award",
+        "label": "Detroit Lions · franchise awarded",
+        "date": "1930-07-12",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "detroit-lions",
+        "place_key": null,
+        "context": "July 12, 1930 as the Portsmouth Spartans. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. Founding year uses predecessor history; 1930 is NFL admission and 1934 is relocation/name change to Detroit Lions.",
+        "source": "https://www.profootballhof.com/teams/detroit-lions/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "green-bay-packers-franchise-award",
+        "label": "Green Bay Packers · franchise awarded",
+        "date": "1921-08-27",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "green-bay-packers",
+        "place_key": null,
+        "context": "August 27, 1921. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. Team formed before 1921 league admission.",
+        "source": "https://www.profootballhof.com/teams/green-bay-packers/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "green-bay-packers-formation",
+        "label": "Green Bay Packers · team organized",
+        "date": "1919-08-11",
+        "time": null,
+        "timezone": "America/Chicago",
+        "entity_key": "green-bay-packers",
+        "place_key": null,
+        "context": "Organizational meeting in Green Bay. Exact clock time unknown; this is distinct from 1921 league admission.",
+        "source": "https://www.packers.com/history/",
+        "attributes": {
+          "event_type": "organization_founded",
+          "date_precision": "day"
+        }
+      },
+      {
+        "key": "houston-texans-franchise-award",
+        "label": "Houston Texans · franchise awarded",
+        "date": "1999-10-06",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "houston-texans",
+        "place_key": null,
+        "context": "October 6, 1999. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/houston-texans/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "indianapolis-colts-franchise-award",
+        "label": "Indianapolis Colts · franchise awarded",
+        "date": "1953-01-23",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "indianapolis-colts",
+        "place_key": null,
+        "context": "January 23, 1953 as the Baltimore Colts. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/indianapolis-colts/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "jacksonville-jaguars-franchise-award",
+        "label": "Jacksonville Jaguars · franchise awarded",
+        "date": "1993-11-30",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "jacksonville-jaguars",
+        "place_key": null,
+        "context": "November 30, 1993. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/jacksonville-jaguars/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "kansas-city-chiefs-franchise-award",
+        "label": "Kansas City Chiefs · franchise awarded",
+        "date": "1959-08-14",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "kansas-city-chiefs",
+        "place_key": null,
+        "context": "August 14, 1959 as the Dallas Texans and Charter Member of AFL. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/kansas-city-chiefs/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "las-vegas-raiders-franchise-award",
+        "label": "Las Vegas Raiders · franchise awarded",
+        "date": "1960-01-30",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "las-vegas-raiders",
+        "place_key": null,
+        "context": "January 30, 1960 as the Oakland Raiders. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/las-vegas-raiders/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "los-angeles-chargers-franchise-award",
+        "label": "Los Angeles Chargers · franchise awarded",
+        "date": "1959-08-14",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "los-angeles-chargers",
+        "place_key": null,
+        "context": "August 14, 1959 as the Los Angeles Chargers and Charter Member of AFL. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/los-angeles-chargers/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "los-angeles-rams-franchise-award",
+        "label": "Los Angeles Rams · franchise awarded",
+        "date": "1937-02-12",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "los-angeles-rams",
+        "place_key": null,
+        "context": "February 12, 1937 as the Cleveland Rams. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. Hall of Fame lists franchise grant on 1937-02-12; Rams official narrative says 1937-02-13. One-day source disagreement is recorded; do not treat the date as settled.",
+        "source": "https://www.profootballhof.com/teams/los-angeles-rams/team-facts\nReviewed 2026-10-13\nhttps://www.therams.com/news/the-rams-story",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "disputed",
+          "source_disagreement": true,
+          "alternative_franchise_award_date": "1937-02-13"
+        }
+      },
+      {
+        "key": "miami-dolphins-franchise-award",
+        "label": "Miami Dolphins · franchise awarded",
+        "date": "1965-08-16",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "miami-dolphins",
+        "place_key": null,
+        "context": "August 16, 1965. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/miami-dolphins/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "minnesota-vikings-franchise-award",
+        "label": "Minnesota Vikings · franchise awarded",
+        "date": "1960-01-28",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "minnesota-vikings",
+        "place_key": null,
+        "context": "January 28, 1960. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/minnesota-vikings/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "new-england-patriots-franchise-award",
+        "label": "New England Patriots · franchise awarded",
+        "date": "1959-11-22",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "new-england-patriots",
+        "place_key": null,
+        "context": "Nov. 22, 1959 as the Boston Patriots. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/new-england-patriots/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "new-orleans-saints-franchise-award",
+        "label": "New Orleans Saints · franchise awarded",
+        "date": "1966-11-01",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "new-orleans-saints",
+        "place_key": null,
+        "context": "November 1, 1966. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/new-orleans-saints/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "new-york-giants-franchise-award",
+        "label": "New York Giants · franchise awarded",
+        "date": "1925-08-01",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "new-york-giants",
+        "place_key": null,
+        "context": "August 1, 1925. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/new-york-giants/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "new-york-jets-franchise-award",
+        "label": "New York Jets · franchise awarded",
+        "date": "1959-08-14",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "new-york-jets",
+        "place_key": null,
+        "context": "Aug. 14, 1959 as the New York Titans and Charter Member of AFL. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/new-york-jets/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "philadelphia-eagles-franchise-award",
+        "label": "Philadelphia Eagles · franchise awarded",
+        "date": "1933-07-08",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "philadelphia-eagles",
+        "place_key": null,
+        "context": "July 8, 1933. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/philadelphia-eagles/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "pittsburgh-steelers-franchise-award",
+        "label": "Pittsburgh Steelers · franchise awarded",
+        "date": "1933-07-08",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "pittsburgh-steelers",
+        "place_key": null,
+        "context": "July 8, 1933 as the Pirates. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/pittsburgh-steelers/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "san-francisco-49ers-franchise-award",
+        "label": "San Francisco 49ers · franchise awarded",
+        "date": "1944-06-04",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "san-francisco-49ers",
+        "place_key": null,
+        "context": "June 4, 1944 as Charter Member of AAFC. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. Hall of Fame lists AAFC franchise grant in 1944; team commemorates founding in 1946. These are separate records.",
+        "source": "https://www.profootballhof.com/teams/san-francisco-49ers/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "seattle-seahawks-franchise-award",
+        "label": "Seattle Seahawks · franchise awarded",
+        "date": "1974-06-04",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "seattle-seahawks",
+        "place_key": null,
+        "context": "June 4, 1974. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/seattle-seahawks/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "tampa-bay-buccaneers-franchise-award",
+        "label": "Tampa Bay Buccaneers · franchise awarded",
+        "date": "1974-04-24",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "tampa-bay-buccaneers",
+        "place_key": null,
+        "context": "April 24, 1974. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/tampa-bay-buccaneers/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "tennessee-titans-franchise-award",
+        "label": "Tennessee Titans · franchise awarded",
+        "date": "1959-08-14",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "tennessee-titans",
+        "place_key": null,
+        "context": "Aug. 14, 1959 as Charter Member of AFL. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/tennessee-titans/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      },
+      {
+        "key": "washington-commanders-franchise-award",
+        "label": "Washington Commanders · franchise awarded",
+        "date": "1932-07-09",
+        "time": null,
+        "timezone": "UTC",
+        "entity_key": "washington-commanders",
+        "place_key": null,
+        "context": "July 9, 1932 as the Boston Braves. Historical franchise award/admission, not necessarily original organization date. Event time and event location are unknown; UTC/noon are viewing conventions only. ",
+        "source": "https://www.profootballhof.com/teams/washington-commanders/team-facts\nReviewed 2026-10-13",
+        "attributes": {
+          "event_type": "franchise_award",
+          "date_precision": "day",
+          "date_status": "sourced",
+          "source_disagreement": false
+        }
+      }
+    ]
+  }
+}

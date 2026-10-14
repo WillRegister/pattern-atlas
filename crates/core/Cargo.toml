@@ -1,0 +1,17 @@
+[package]
+name = "atlas-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+atlas-astro = { path = "../astro", optional = true }
+anyhow.workspace = true
+chrono.workspace = true
+chrono-tz.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+uuid.workspace = true
+
+[features]
+astronomy = ["dep:atlas-astro"]

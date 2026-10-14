@@ -1,0 +1,22 @@
+/target/
+/data/
+/dist/
+*.sqlite*
+/qa/
+
+# Local build caches and tool downloads
+/.build-cache/
+
+# Local settings, credentials and editor files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+*.log
+__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store

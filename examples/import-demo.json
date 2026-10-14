@@ -1,0 +1,18 @@
+{
+  "format": "pattern-atlas-data",
+  "version": 1,
+  "batch_id": "synthetic-sports-demo-v1",
+  "dataset": {
+    "name": "Synthetic sports example",
+    "context": "Fictional records demonstrate the format. These are not NFL facts.",
+    "entities": [
+      {"key": "example-team", "name": "Example Team", "kind": "team", "aliases": ["Example"], "tags": ["synthetic", "sports"], "context": "Fictional team", "source": "synthetic example", "attributes": {"score_points": 56, "season": 2026}}
+    ],
+    "places": [
+      {"key": "example-site", "name": "Example site", "latitude": 37.0, "longitude": -93.0, "timezone": "America/Chicago", "context": "Illustrative coordinates, not a real venue", "source": "synthetic example"}
+    ],
+    "observations": [
+      {"key": "example-game", "label": "Illustrative game", "date": "2026-10-01", "time": null, "timezone": "America/Chicago", "entity_key": "example-team", "place_key": "example-site", "context": "Time is unknown. Noon is only a viewing assumption.", "source": "synthetic example", "attributes": {"home_score_points": 56, "away_score_points": 21, "opponent": "Other Example Team"}}
+    ]
+  }
+}
